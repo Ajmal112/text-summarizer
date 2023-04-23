@@ -1,0 +1,317 @@
+.navimg {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+#navrow1 {
+    height: 100px;
+}
+#navlogotext {
+    font-size: 30px;
+    margin-top:22px;
+    margin-left: 10px;
+}
+#navlinks {
+    margin-top: 30px;
+    width: 500px;
+}
+.nav-link {
+    margin-left: 20px;
+    font-size: 17px;
+}
+#row1col3 {
+    margin-left: 140px;
+}
+#buymecoffeebtn {
+    margin-top: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#buymecoffeebtn::before {
+    content: '☕️  ';
+}
+#btn2 {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-weight: 600px;
+}
+#heroh1 {
+    margin-top: 20px;
+}
+#spellcheck-container {
+    padding-top: 30px;
+}
+#cardtext {
+   margin-top: 50px;
+}
+#submit , #copytext {
+    margin-top: 20px;
+    width: 100px;
+}
+#footerdiv {
+    height: 225px;
+}
+#footer {
+    padding: 50px;
+}
+
+#footerspan {
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    margin-left: -20px;
+    color: white;
+}
+
+/* fontawesome social links */
+
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  #footerlinks {
+     position: relative;
+     top: 60px;
+  }
+  /* social media links */
+
+  #footerlinklast {
+    justify-content: center;
+    gap: 50px;
+    margin-right: 60px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #74a3e8; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #CFE2FF; 
+  }
+  
+  /* Handle on active */
+  ::-webkit-scrollbar-thumb:active {
+    background: #CFE2FF; 
+  }
+  
+
+
+  @media screen and (max-width:390px) {
+    
+
+  body {
+    width: 389px;
+  }
+
+    .navimg {
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+    }
+    #navrow1 {
+        height: 300px;
+    }
+    #navlogotext {
+        font-size: 30px;
+        margin-top:22px;
+        margin-left: 10px;
+    }
+    #navlinks {
+        /* margin-top: 0px; */
+        width: 380px;
+        margin-left: -40px;
+    }
+    .nav-link {
+        margin-left: 15px;
+        font-size: 17px;
+    }
+    #row1col3 {
+        margin-left: 30px;
+        display: flex;
+    }
+    #buymecoffeebtn {
+        margin-top: 25px;
+        height: 40px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #buymecoffeebtn::before {
+        content: '☕️  ';
+    }
+    #btn2 {
+        margin-top: 25px;
+        margin-left: 10px;
+        font-weight: 600px;
+        height: 40px;
+    }
+    #heroh1 {
+        margin-top: 20px;
+    }
+    #spellcheck-container {
+        padding-top: 30px;
+    }
+    #cardtext {
+       margin-top: 50px;
+    }
+    #submit , #copytext {
+        margin-top: 20px;
+        width: 100px;
+    }
+    #footerdiv {
+        height: 525px;
+    }
+    #footer {
+        padding-top: 30px;
+    }
+    
+    #footerspan {
+        font-size: 15px;
+        position: relative;
+        top: -20px;
+        left: 110px;
+        width: 390px;
+        margin-left: -20px;
+        color: white;
+    }
+    
+    /* fontawesome social links */
+    
+    .fa {
+        padding: 15px;
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px 2px;
+        position: relative;
+        right: 110px;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+    
+      #footerlinks {
+         position: relative;
+         top: 60px;
+      }
+      /* social media links */
+    
+      #footerlinklast {
+        justify-content: center;
+        gap: 40px;
+        margin-right: 10px;
+        margin-top: 90px;
+      }
+    
+      ::-webkit-scrollbar {
+        width: 100px;
+        height: 100px;
+      }
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #74a3e8; 
+        border-radius: 5px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #CFE2FF; 
+      }
+      
+      /* Handle on active */
+      ::-webkit-scrollbar-thumb:active {
+        background: #CFE2FF; 
+      }
+      
+
+
+  }
